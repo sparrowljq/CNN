@@ -1,5 +1,6 @@
 # torch.nn是专门为神经网络设计的模块化接口。nn构建于Autograd之上，可用来定义和运行神经网络
-# 该案例是一个基础的前向传播（feed-forward）网络：接收输入，经过层层传递运算，得到输出
+# 该案例是一个基础的前向传播（feed-forward）
+# 网络：接收输入，经过层层传递运算，得到输出
 import torch as t
 import torch.nn as nn
 import torch.nn.functional as F

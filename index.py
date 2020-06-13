@@ -2,7 +2,7 @@
 import torch as t
 import numpy as np
 from torch.autograd import Variable
-# 创建张量
+# 创建 张量
 # x = t.Tensor(5, 3)
 # 构建5*3的矩阵，只是分配了空间，未出化
 # print(x)
